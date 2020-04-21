@@ -22,9 +22,7 @@ p{
 header{
   font-weight:bold;
 }
-body{
-  background-color:red;
-}
+
 @media (min-width:600px){
 .d1{
   text-align:left;
@@ -71,7 +69,7 @@ span{
 xmp{
   margin-top:0px;
   font-size:25px;
-  background:#66f53d;
+  background:#74ddf2;
   margin-bottom:0px;
 } 
 ul{
