@@ -4,29 +4,22 @@ You can see some of the git commands and their use in this repository.
 ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 
-### Markdown
+### Commands discussed
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Following are commands discussed in this repository
 
 ```markdown
-Syntax highlighted code block
+1.git clone
+2.git add
+3.git status
+4.git commit
+5.git oush
+6.git pull
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-Hello
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and 
+ 
 ```
-
+[See the commands](https://susmi7.github.io/Git-commands-practice/hello.html)
 
 
 
