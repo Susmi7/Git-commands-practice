@@ -13,7 +13,7 @@ Following are commands discussed in this repository
 2.git add
 3.git status
 4.git commit
-5.git oush
+5.git push
 6.git pull
 
 
