@@ -1,0 +1,97 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css;')
+  #navbar {
+ height:100%;
+}
+ul{
+   margin:0px;
+}
+ul li{
+
+   margin:0px;
+   list-style:none;
+  display:block;
+  border-bottom:2px solid black;
+}
+ol li{
+  list-style:square;
+  font-size:25px;
+}
+p{
+   font-size:25px;
+}
+header{
+  font-weight:bold;
+}
+
+@media (min-width:600px){
+.d1{
+  text-align:left;
+  background:#dddddd; 
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  border-bottom: 2px solid;
+    }
+  }
+@media (max-width:600px){
+.d1{
+  text-align:left;
+  background:pink; 
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width:400px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+
+    }
+  }
+  .d2{
+    background:#dddddd;
+    position: fixed;
+    top: 0px;
+    left:400px;
+   
+    height:100%;
+    overflow:auto;
+}
+
+span{
+  font-size:25px;
+}
+xmp{
+  margin-top:0px;
+  font-size:25px;
+  background:rgb(215, 224, 216);
+  margin-bottom:0px;
+} 
+ul{
+   padding: 0;
+}
+
+  .container {
+    font-size: 40px;
+    width: 100%;
+   
+    /* Only change code below this line */
+margin:0px;
+    display:grid;
+     grid-template-columns: 300px 1fr;
+    /* Only change code above this line */
+  }
+
+.nav-link{
+  text-decoration:none;
+  color:black;
+
+}
+article{
+  margin-top:25px;
+}
