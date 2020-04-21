@@ -22,12 +22,16 @@
       <ul>
    <li style="border-top:2px solid black;""><a  href="#Introduction" class="nav-link">Introduction</a></li>
  <li> <a  href="#clone" class="nav-link">git&nbsp;clone</a></li>
-  <li><a href="#add" class="nav-link">git add</a></li>
+  <li><a href="#add" class="nav-link">git&nbsp;add</a></li>
+  <li> <a  href="#status" class="nav-link">git&nbsp;status</a></li>
+  <li><a href="#commit" class="nav-link">git&nbsp;commit</a></li>
+  <li> <a  href="#push" class="nav-link">git&nbsp;push</a></li>
+  
       
    </ul>
 </nav></div>
   <div class="d2">
-    <section class="main-section" id="Introduction">
+    <section  id="Introduction">
       <header>Introduction</header>
       <article >
 		<p style=" font-size:25px;">
@@ -93,7 +97,49 @@ $git add .
 </xmp> 
 </article>
 </section>
-
+<section class="main-section" id="status">
+  <header>git status</header>
+  <article>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  This gives information about current status of repository this includes on which branch we are in,what are the files modified,what are the files added and what are the files deleted etc from the last commit.
+</p>
+<p><b>Example</b></p>
+  <xmp>
+$git staus    
+  </xmp> 
+</article>
+</section>
+<section class="main-section" id="commit">
+  <header>git commit</header>
+  <article>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  This command takes the current snpshot of the repositoy and saves it.<br/>
+  <b>Syntax:&nbsp;</b>git commit -m <q>message</q><br/>
+  This message helps in keeping track of changes to the repository.
+</p>
+<p><b>Example</b></p>
+  <xmp>
+$git commit -m "Added content"
+  </xmp> 
+  
+  <p>After running this it will provide us information about changes made to the repository.</p>
+</article>
+</section>
+<section class="main-section" id="push">
+  <header>git push</header>
+  <article>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+This helps in storing the repository in our system to the remote repository.
+</p>
+<p><b>Example</b></p>
+  <xmp>
+$git push
+  </xmp> 
+  <p>On executing above command we may be prompted to enter our credentilas as shown below.<br/></p>
+  <img src="images/gitlogin.jpg" alt="gitloginpage">
+  <p>If the repository on which we are working not belongs to us we need access tokens for saving changes remotely from the repository owner.</p>
+</article>
+</section>
     </div>
 
 </div>

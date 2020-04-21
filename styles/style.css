@@ -102,3 +102,7 @@ margin:0px;
 article{
   margin-top:25px;
 }
+.main-section{
+  margin-top: 25px;
+  border-top: 5px solid grey;
+}
