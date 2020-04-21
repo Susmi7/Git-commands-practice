@@ -50,123 +50,14 @@ All the commands discussed are used from terminal or command prompt.
 		<
 	</article>
     </section>
-   section class="main-section" id="clone">
+   <section class="main-section" id="clone">
 	<header>git clone</header>
 	<article>
 		
 	</article>
 </section>
 
-<section class="main-section" id="Variables">
-	<header>Variables</header>
-	<article>
-		<p>Variables are "containers" for storing information.
-			<h4>Creating (Declaring) PHP Variables
-</h4><p>In PHP, a variable starts with the $ sign, followed by the name of the variable:</p>
-<xmp>
-<?php
-$txt = "Hello world!";
-$x = 5;
-$y = 10.5;
-?>
-</xmp>
-    <p>
-      After the execution of the statements above, the variable $txt will hold the value Hello world!, the variable $x will hold the value 5, and the variable $y will hold the value 10.5.
-<br/>
-      <b>Note:</b> When you assign a text value to a variable, put quotes around the value.
-<br/>
-      <b>Note:</b> Unlike other programming languages, PHP has no command for declaring a variable. It is created the moment you first assign a value to it.
-    </p>
-    </p>
-	</article>
-</section>
-
-
-<section class="main-section" id="Printing">
-	<header>Printing</header>
-	<article>
-		<p>With PHP, there are two basic ways to get output: echo and print.<br/>
-
-In this tutorial we use echo or print in almost every example. So, this chapter contains a little more info about those two output statements.
-<h4>PHP echo and print Statements</h4>
-<p>echo and print are more or less the same. They are both used to output data to the screen.
-<br/>
-The differences are small: echo has no return value while print has a return value of 1 so it can be used in expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print.</p>
-<h4>The PHP echo Statement</h4>
-<span>The echo statement can be used with or without parentheses: echo or echo().
-<br/><b>
-Display Text</b>
-<br/>
-The following example shows how to output text with the echo command (notice that the text can contain HTML markup):</span>
-<xmp><?php
-echo "<h2>PHP is Fun!</h2>";
-echo "Hello world!<br>";
-echo "I'm about to learn PHP!<br>";
-echo "This ", "string ", "was ", "made ", "with multiple parameters.";
-?></xmp>
-<span>
-	<b>Display Variables
-</b><br/>
-The following example shows how to output text and variables with the echo statement:
-	</span>
-	<xmp>
-<?php
-$txt1 = "Learn PHP";
-$txt2 = "W3Schools.com";
-$x = 5;
-$y = 4;
-
-echo "<h2>" . $txt1 . "</h2>";
-echo "Study PHP at " . $txt2 . "<br>";
-echo $x + $y;
-?>
-	</xmp>
-
-</p>
-	
-
-
-
-<p>
-<h4>The PHP print Statement</h4>
-<span>
-The print statement can be used with or without parentheses: print or print().
-<br/><b>
-Display Text
-</b><br/>
-The following example shows how to output text with the print command (notice that the text can contain HTML markup):
-</span>
-<xmp>
-<?php
-print "<h2>PHP is Fun!</h2>";
-print "Hello world!<br>";
-print "I'm about to learn PHP!";
-?>
-</xmp>
-<span>
-<b>Display Variables</b><br>
-
-The following example shows how to output text and variables with the print statement:
-
-</span>
-<xmp>
-<?php
-$txt1 = "Learn PHP";
-$txt2 = "W3Schools.com";
-$x = 5;
-$y = 4;
-
-print "<h2>" . $txt1 . "</h2>";
-print "Study PHP at " . $txt2 . "<br>";
-print $x + $y;
-?>
-</xmp>
-</p>
-</article>
-</section>
-    </div>
-  
-</div>
+	</div>
   </main>
 
 </body>
