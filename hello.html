@@ -2,7 +2,10 @@
 <html>
 	<head>
 		
-	<title>Hello!</title>
+	<title>Git commands</title>
+  <link rel = "icon" href =  
+"https://github.githubassets.com/images/icons/emoji/octocat.png" 
+ type = "image/x-icon">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
@@ -56,13 +59,43 @@ All the commands discussed are used from terminal or command prompt.
    <section class="main-section" id="clone">
 	<header>git clone</header>
 	<article>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+git clone command is used for downloading our remote repository to our local machine.<br/>
+      Following figures show us how can we get the url of our git hub repository for cloning.<br/><br/>
+      <div style="display:flex">
+      <img src="./images/clone1.png" alt="cloningrepo1" class="img1"/>
+      
+      <img src="images/clone2.png" alt="cloningrepo1" class="img1"/>
+    </div>
+    <br/>
+    <p><b>Example</b></p>
     <xmp>
+
 $git clone https://github.com/Susmi7/Git-commands-practice.git
   </xmp>
+  <br/>
+  <p>Once you execute above command a directory or folder named Git-commands-practice is created in present working directory.You can see all the files present in the remote repository inside of it.</p>
 	</article>
 </section>
+<section class="main-section" id="add">
+  <header>git add</header>
+  <article>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+This command is used for taking one or more files in your system and tell git that these are the files which I wish to commit next time.<br/><br/>
+<b>Syntax:&nbsp;</b>git add &lt;filename&gt;
+<br/>
+Following command is used for adding all the files in the directory in next command.
+
+</p>
+<p><b>Example</b></p>
+<xmp>
+$git add .  
+</xmp> 
+</article>
+</section>
+
     </div>
-  
+
 </div>
   </main>
 

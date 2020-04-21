@@ -1,6 +1,11 @@
 body{
   background:#f5f0f0;
 }
+.img1{
+  margin: auto;
+  width:50%;
+  height:50%;
+}
   #navbar {
  height:100%;
 }
