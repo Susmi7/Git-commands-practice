@@ -22,7 +22,9 @@ p{
 header{
   font-weight:bold;
 }
-
+body{
+  background-color:red;
+}
 @media (min-width:600px){
 .d1{
   text-align:left;
