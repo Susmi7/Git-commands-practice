@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Git commands practice
 
 You can use the [editor on GitHub](https://github.com/Susmi7/Git-commands-practice/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
