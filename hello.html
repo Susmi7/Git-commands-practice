@@ -16,12 +16,13 @@
   <div class="container">
   <div class="d1">
     <nav  id="navbar" width="300px">
-      <header  ">Git&nbsp;Commands</header>
+      <header  ">PHP&nbsp;documentation</header>
       <ul>
    <li style="border-top:2px solid black;""><a  href="#Introduction" class="nav-link">Introduction</a></li>
- <li> <a  href="#clone" class="nav-link">git&nbsp;clone</a></li>
-  <li><a href="#add" class="nav-link">git add</a></li>
-      
+ <li> <a  href="#Syntax" class="nav-link">Syntax</a></li>
+  <li><a href="#Comments" class="nav-link">Comments</a></li>
+      <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Printing" class="nav-link">Printing</a></li>
    </ul>
 </nav></div>
   <div class="d2">
@@ -29,35 +30,216 @@
       <header>Introduction</header>
       <article >
 		<p style=" font-size:25px;">
-        <h4>Why Git?</h4>
+        <h4>What is PHP?</h4>
 
 			<ol>
-        <li>Git is a version control tool.</li>
-        <li>Git keep track of changes to code</li>
-        <li>Git helps in synchronizing code between different people</li>
-<li>It helps in testing differt versions of the code without losing original one.</li>
-
+        <li>PHP is a popular general-purpose scripting language that is especially suited to web development.</li>
+        <li>It was originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The PHP Group.</li><li>PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.</li>
+<li>PHP is a widely-used, open source scripting language</li>
+<li>PHP scripts are executed on the server</li>
+<li>PHP is free to download and use</li>
 </ol>
- <h4>Prerequisite</h4>
- <ol>
-        <li>You need to create a GitHub account.</li>
-       <li>You need to install git in your computer.</li>
-
-</ol>
-<h4>Note:</h4>
-All the commands discussed are used from terminal or command prompt.
 		</p>
-		<
 	</article>
     </section>
-   <section class="main-section" id="clone">
-	<header>git clone</header>
+    <section class="main-section" id="Syntax">
+	<header>Syntax</header>
 	<article>
-		
+		<p>
+			A PHP script is executed on the server, and the plain HTML result is sent back to the browser.A PHP script can be placed anywhere in the document.
+
+A PHP script starts with <?php and ends with ?>:
+<xmp>
+<?php
+// PHP code goes here
+?>
+      </xmp>
+<p>The default file extension for PHP files is ".php".<br/>A PHP file normally contains HTML tags, and some PHP scripting code.<br/>
+
+Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:</p>
+<xmp>
+	
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
+?>
+
+</body>
+</html>
+	
+</xmp>			
+		</p>
+      <p><h4>PHP Case Sensitivity</h4>
+<p>In PHP, NO keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are case-sensitive.
+<br/>
+  In the example below, all three echo statements below are equal and legal:</p>
+<xmp><pre><!DOCTYPE html>
+<html>
+<body>
+
+<?php
+ECHO "Hello World!<br>";
+echo "Hello World!<br>";
+EcHo "Hello World!<br>";
+?>
+
+</body>
+</html></pre></xmp></p>
+	</article>
+</section>
+<section class="main-section" id="Comments">
+	<header>Comments</header>
+	<article>
+		<p>A comment in PHP code is a line that is not executed as a part of the program. Its only purpose is to be read by someone who is looking at the code.
+<br/>
+Comments can be used to:
+<br/>
+<ol>
+<li>Let others understand your code</li>
+<li>Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. </li>
+<li>Comments can remind you of what you were thinking when you wrote the code</li>
+</ol>
+    <span style=" font-size:25px;">PHP supports several ways of commenting:</span>
+    <xmp>
+	<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// This is a single-line comment
+
+# This is also a single-line comment
+/*
+This is a multiple-lines comment block
+that spans over multiple
+lines
+*/
+// You can also use comments to leave out parts of a code line
+$x = 5 /* + 15 */ + 5;
+echo $x;
+?>
+
+</body>
+</html>
+</xmp>
+    </p>
+	</article>
+</section>
+<section class="main-section" id="Variables">
+	<header>Variables</header>
+	<article>
+		<p>Variables are "containers" for storing information.
+			<h4>Creating (Declaring) PHP Variables
+</h4><p>In PHP, a variable starts with the $ sign, followed by the name of the variable:</p>
+<xmp>
+<?php
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
+?>
+</xmp>
+    <p>
+      After the execution of the statements above, the variable $txt will hold the value Hello world!, the variable $x will hold the value 5, and the variable $y will hold the value 10.5.
+<br/>
+      <b>Note:</b> When you assign a text value to a variable, put quotes around the value.
+<br/>
+      <b>Note:</b> Unlike other programming languages, PHP has no command for declaring a variable. It is created the moment you first assign a value to it.
+    </p>
+    </p>
 	</article>
 </section>
 
-	</div>
+
+<section class="main-section" id="Printing">
+	<header>Printing</header>
+	<article>
+		<p>With PHP, there are two basic ways to get output: echo and print.<br/>
+
+In this tutorial we use echo or print in almost every example. So, this chapter contains a little more info about those two output statements.
+<h4>PHP echo and print Statements</h4>
+<p>echo and print are more or less the same. They are both used to output data to the screen.
+<br/>
+The differences are small: echo has no return value while print has a return value of 1 so it can be used in expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print.</p>
+<h4>The PHP echo Statement</h4>
+<span>The echo statement can be used with or without parentheses: echo or echo().
+<br/><b>
+Display Text</b>
+<br/>
+The following example shows how to output text with the echo command (notice that the text can contain HTML markup):</span>
+<xmp><?php
+echo "<h2>PHP is Fun!</h2>";
+echo "Hello world!<br>";
+echo "I'm about to learn PHP!<br>";
+echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+?></xmp>
+<span>
+	<b>Display Variables
+</b><br/>
+The following example shows how to output text and variables with the echo statement:
+	</span>
+	<xmp>
+<?php
+$txt1 = "Learn PHP";
+$txt2 = "W3Schools.com";
+$x = 5;
+$y = 4;
+
+echo "<h2>" . $txt1 . "</h2>";
+echo "Study PHP at " . $txt2 . "<br>";
+echo $x + $y;
+?>
+	</xmp>
+
+</p>
+	
+
+
+
+<p>
+<h4>The PHP print Statement</h4>
+<span>
+The print statement can be used with or without parentheses: print or print().
+<br/><b>
+Display Text
+</b><br/>
+The following example shows how to output text with the print command (notice that the text can contain HTML markup):
+</span>
+<xmp>
+<?php
+print "<h2>PHP is Fun!</h2>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!";
+?>
+</xmp>
+<span>
+<b>Display Variables</b><br>
+
+The following example shows how to output text and variables with the print statement:
+
+</span>
+<xmp>
+<?php
+$txt1 = "Learn PHP";
+$txt2 = "W3Schools.com";
+$x = 5;
+$y = 4;
+
+print "<h2>" . $txt1 . "</h2>";
+print "Study PHP at " . $txt2 . "<br>";
+print $x + $y;
+?>
+</xmp>
+</p>
+</article>
+</section>
+    </div>
+  
+</div>
   </main>
 
 </body>
