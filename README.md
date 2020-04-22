@@ -16,7 +16,7 @@ Following are commands discussed in this repository
 5.git push
  
 ```
-[See the commands](https://github.com/Susmi7/Git-commands-practice/blob/master/hello.html)
+[See the commands](https://susmi7.github.io/Git-commands-practice/hello.html)
 
 
 
