@@ -1,4 +1,4 @@
-## Welcome to Git commands practice
+## Welcome to Git commands
 
 You can see some of the git commands and their use in this repository.
 ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
@@ -16,7 +16,7 @@ Following are commands discussed in this repository
 5.git push
  
 ```
-[See the commands](https://susmi7.github.io/Git-commands-practice/hello.html)
+##[See the commands](https://susmi7.github.io/Git-commands-practice/hello.html)
 
 
 
