@@ -1,8 +1,17 @@
+
 nav{
-    float:right;
+    float:left;
+    height: 100%;
+    background-color: #e3e0d8;
+    color: black;
+    position: fixed;
+    top:0px;
+    left: 0px;
   }
   main{
     margin:2%;
+    /*clear: left;*/
+     overflow: auto;
   }
   .nav-link{
     font-size:25px;
