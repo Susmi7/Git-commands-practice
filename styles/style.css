@@ -1,14 +1,27 @@
-body{
-  background:#f5f0f0;
-}
+nav{
+    float:right;
+  }
+  main{
+    margin:2%;
+  }
+  .nav-link{
+    font-size:25px;
+    color: black !important;
+    
+  }
+a:hover{
+    background-color: #819beb !important;
+    
+  }
+  header{
+    font-size:35px;
+  }
 .img1{
   margin: auto;
   width:50%;
   height:50%;
 }
-  #navbar {
- height:100%;
-}
+ 
 ul{
    margin:0px;
 }
@@ -17,7 +30,7 @@ ul li{
    margin:0px;
    list-style:none;
   display:block;
-  border-bottom:2px solid black;
+ 
 }
 ol li{
   list-style:square;
@@ -30,53 +43,22 @@ header{
   font-weight:bold;
 }
 
-@media (min-width:600px){
-.d1{
-  text-align:left;
-  background:#dddddd; 
-  position: fixed;
-  min-width: 290px;
-  top: 0px;
-  left: 0px;
-  width: 400px;
-  height: 100%;
-  border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
-  border-bottom: 2px solid;
-    }
-  }
-@media (max-width:600px){
-.d1{
-  text-align:left;
-  background:pink; 
-  position: fixed;
-  min-width: 290px;
-  top: 0px;
-  left: 0px;
-  width:400px;
-  height: 100%;
-  border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
 
-    }
-  }
-  .d2{
-    background:#f5f0f0;
-    position: fixed;
-    top: 0px;
-    left:400px;
-   
-    height:100%;
-    overflow:auto;
-}
+
 
 span{
   font-size:25px;
 }
+body{
+zoom: 80%;
+}
+
 xmp{
+  overflow: visible;
   margin-top:0px;
   font-size:25px;
-  background:#74ddf2;
+  background:#000000;
+  color: #fff;
   margin-bottom:0px;
 } 
 ul{
@@ -85,12 +67,10 @@ ul{
 
   .container {
     font-size: 40px;
-    width: 100%;
-   
+    
     /* Only change code below this line */
 margin:0px;
-    display:grid;
-     grid-template-columns: 300px 1fr;
+    
     /* Only change code above this line */
   }
 
@@ -106,3 +86,4 @@ article{
   margin-top: 25px;
   border-top: 5px solid grey;
 }
+
