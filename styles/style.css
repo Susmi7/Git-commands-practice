@@ -1,27 +1,16 @@
 
-nav{
-    float:left;
-    height: 100%;
-    background-color: #e3e0d8;
-    color: black;
-    position: fixed;
-    top:0px;
-    left: 0px;
-  }
   main{
     margin:2%;
     /*clear: left;*/
      overflow: auto;
   }
+
   .nav-link{
     font-size:25px;
-    color: black !important;
-    
+    color: rgba(251, 243, 243, 0.91) !important;
+  padding: .15rem 1rem;
   }
-a:hover{
-    background-color: #819beb !important;
-    
-  }
+
   header{
     font-size:35px;
   }
@@ -31,15 +20,13 @@ a:hover{
   height:50%;
 }
  
-ul{
-   margin:0px;
-}
+
 ul li{
 
    margin:0px;
-   list-style:none;
+   
   display:block;
- 
+ padding-left:2%;
 }
 ol li{
   list-style:square;
@@ -76,18 +63,12 @@ ul{
 
   .container {
     font-size: 40px;
-    
-    /* Only change code below this line */
+   
 margin:0px;
-    
-    /* Only change code above this line */
+   
   }
 
-.nav-link{
-  text-decoration:none;
-  color:black;
 
-}
 article{
   margin-top:25px;
 }
